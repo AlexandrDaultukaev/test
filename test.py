@@ -6,9 +6,6 @@ def TEST1():
 def TEST2():
     return DivisibleBy7(15)
 
-TEST1()
+assert TEST1()
 
-if TEST2():
-    pass
-else:
-    exit(42)
+assert TEST2()
