@@ -11,4 +11,4 @@ TEST1()
 if TEST2():
     pass
 else:
-    exit(1)
+    exit(42)
