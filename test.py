@@ -4,7 +4,11 @@ def TEST1():
     return DivisibleBy7(7)
 
 def TEST2():
-    return DivisibleBy7(14)
+    return DivisibleBy7(15)
 
 TEST1()
-TEST2()
+
+if TEST2():
+    pass
+else:
+    exit(1)
