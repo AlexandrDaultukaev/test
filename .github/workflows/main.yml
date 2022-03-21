@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.9.10]
-    runs-on: ubuntu-latest
+    runs-on: manjaro-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
